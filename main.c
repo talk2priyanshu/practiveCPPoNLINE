@@ -5,7 +5,7 @@ int main() {
  scanf("%d",&a);
  b=a;
  printf("You have the enter the matrix elements in row wise fashion\n");
- for (i=0:i<a;i++)
+ for (i=0;i<a;i++)
  {
    for (j=0;j<b;j++)
    {
@@ -13,16 +13,16 @@ int main() {
       scanf("%d",&a1[i][j]);
    }
  }
- for (i=o;i<a;i++)
+ for (i=0;i<a;i++)
  {
    for (j=0;j<b;j++)
    {
-    printf(\n\nEnter the next element in the 2nd martix=);
+    printf("\n\nEnter the next element in the 2nd martix=");
     scanf("%d",&a2[i][j]);
    }
  }
  printf("\n\nEntered martrics are\n");
- for (i=o;i<a;i++)
+ for (i=0;i<a;i++)
  {
   printf("\n");
   for (j=0;j<b;j++)
